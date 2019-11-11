@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".image">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Gambar Dari Operator Arimatika"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/tambah" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/kotakbutton"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text='Dalam dunia Matematika, tanda diatas dikenal dengan sebutan "tambah". Tanda Tambah digunakan untuk proses matematika penjumlahan.
+Contoh = 1 + 1 = 2'
+            android:textColor="@android:color/black" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/pengurangan" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/kotakbutton"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text='Dalam dunia Matematika, tanda diatas dikenal dengan sebutan "min/kurang". Tanda min/kurang digunakan untuk proses matematika pengurangan.
+Contoh = 4 - 2 = 2'
+            android:textColor="@android:color/black" />
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/kali" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/kotakbutton"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text='Dalam dunia Matematika, tanda diatas dikenal dengan sebutan "kali". Tanda kali ini digunakan untuk proses matematika perkalian.
+Contoh = 4 x 2 = 8'
+            android:textColor="@android:color/black" />
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/bagi" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/kotakbutton"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text='Dalam dunia Matematika, tanda diatas dikenal dengan sebutan "bagi". Tanda bagi ini digunakan untuk proses matematika pembagian.
+Contoh = 4 : 2 = 2'
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</ScrollView>
